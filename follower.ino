@@ -23,16 +23,14 @@ void loop() {
   Serial.println(C3);
   Serial.println(C4);
   delay(100);
-  if(C1 == HIGH){
-  digitalWrite(a, C1);
-  digitalWrite(b, C2);
-  digitalWrite(c, C3);
-  digitalWrite(d, C4);
+  if(C2 == 1 && C3 == 1){
+    //frente  
+  }else if(C1 == 1 && C4 == 0){
+    //esquerda  
+  }else if(C4 == 1 && C1 == 0){
+    //diereita
   }else{
-  digitalWrite(a, C1);
-  digitalWrite(b, C2);
-  digitalWrite(c, C3);
-  digitalWrite(d, C4);
-    }
+    //parar
+  }
   
   }
