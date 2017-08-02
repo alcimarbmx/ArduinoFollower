@@ -26,11 +26,11 @@ void loop() {
   boolean e = C1 && C2;
   boolean d = C3 && C4;
   delay(100);
-  if(C2 == 1 && C3 == 1){
+  if(f){
     //frente  
-  }else if(C1 == 1 && C4 == 0){
+  }else if(e){
     //esquerda  
-  }else if(C4 == 1 && C1 == 0){
+  }else if(d){
     //diereita
   }else{
     //parar
