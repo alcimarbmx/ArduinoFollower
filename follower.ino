@@ -22,6 +22,9 @@ void loop() {
   Serial.println(C2);
   Serial.println(C3);
   Serial.println(C4);
+  boolean f = C2 && C3;
+  boolean e = C1 && C2;
+  boolean d = C3 && C4;
   delay(100);
   if(C2 == 1 && C3 == 1){
     //frente  
@@ -32,5 +35,5 @@ void loop() {
   }else{
     //parar
   }
-  
+            
   }
